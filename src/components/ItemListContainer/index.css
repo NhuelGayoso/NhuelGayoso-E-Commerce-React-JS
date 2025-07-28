@@ -1,0 +1,28 @@
+.articulos {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.articulos .card {
+    width: 60%;
+
+  border: 1px solid;
+  border-radius: 1rem;
+  padding: 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.articulos .card p{
+    font-size: 20px;
+}
+
+.articulos .card .card-img img{
+    width: 100%;
+
+}

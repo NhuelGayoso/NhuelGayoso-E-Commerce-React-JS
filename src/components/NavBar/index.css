@@ -1,0 +1,42 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6e6e6e;
+  padding: 5px;
+
+  
+}
+
+.navbar .navbar-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .navbar-container .navbar-logo {
+  color: white;
+}
+
+.navbar .navbar-menu {
+  list-style: none;
+}
+
+.navbar .navbar-menu li a {
+  font-size: 20px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbar .navbar-menu li a:hover {
+  background-color: #504f4f;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.card button{
+  border-radius: 10px;
+  padding: 5px;
+}

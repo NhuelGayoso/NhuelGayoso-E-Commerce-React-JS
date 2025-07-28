@@ -1,0 +1,8 @@
+.cart{
+    width: 100px;
+    border-radius: 10px;
+}
+
+.cart .cart-logo{
+    font-size: 30px;
+}
