@@ -7,7 +7,7 @@ const NavBar = (props) => {
     <div className="navbar">
       <div className="navbar-container">
         <div className="navbar-logo">
-          <img src={logo} alt="Logo de la tienda" width={100}/>
+          <img src={logo} alt="Logo de la tienda" width={100} />
           <h2>PescaShop</h2>
         </div>
         <ul className="navbar-menu">
@@ -30,7 +30,7 @@ const NavBar = (props) => {
             <a href="/">Contactos</a>
           </li>
         </ul>
-      <CartWidget></CartWidget>
+        <CartWidget></CartWidget>
       </div>
     </div>
   );
